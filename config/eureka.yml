@@ -2,13 +2,13 @@ spring:
   application:
     name: Eureka
 
+server:
+  port: 8761
+
 #  cloud:
 #    config:
 #      import-check:
 #        enabled: false
-
-server:
-  port: 8761
 
 eureka:
   client:

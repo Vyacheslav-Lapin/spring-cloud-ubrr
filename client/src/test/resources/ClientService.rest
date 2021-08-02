@@ -1,0 +1,14 @@
+### Create client
+POST http://localhost:8801/client?name=Test
+
+### Get client info
+GET http://localhost:8801/client
+
+### Update client name
+PUT http://localhost:8801/client/1?name=TestUpdate
+
+### Get info about client with id 1
+GET http://localhost:8801/client/1
+
+### Delete client with id 1
+DELETE http://localhost:8801/client/1
